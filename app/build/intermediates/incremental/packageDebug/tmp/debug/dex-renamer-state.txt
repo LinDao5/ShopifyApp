@@ -1,0 +1,16 @@
+#Fri Dec 20 16:49:48 KST 2019
+path.3=classes_0.dex
+path.2=classes2.dex
+path.1=classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=G\:\\working\\task\\ShoppingApp\\Entage_12_19_en\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out
+renamed.0=classes.dex
+base.3=G\:\\working\\task\\ShoppingApp\\Entage_12_19_en\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out
+base.2=G\:\\working\\task\\ShoppingApp\\Entage_12_19_en\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.1=G\:\\working\\task\\ShoppingApp\\Entage_12_19_en\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.0=G\:\\working\\task\\ShoppingApp\\Entage_12_19_en\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+path.4=classes_1.dex

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.entage.nrd.entage"
+    android:versionCode="17"
+    android:versionName="1.17" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="28" />
+
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:nodSharingLocation_1e="remove"/> -->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" /> <!-- <uses-permission android:name="android.permission.VIBRATE"/> -->
+    <application
+        android:name="com.entage.nrd.entage.utilities_1.GlobalVariable"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:configChanges="orientation|keyboardHidden"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" > <!-- Failed to allocate a 357616 byte allocation with 280304 free bytes and 273KB until OOM -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_api_key" />
+
+        <activity
+            android:name="com.entage.nrd.entage.home.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true" /> -->
+
+        <meta-data
+            android:name="firebase_crash_collection_enabled"
+            android:value="true" />
+
+        <activity android:name="com.entage.nrd.entage.home.ActivityForOpenFragments" />
+        <activity android:name="com.entage.nrd.entage.utilities_1.ViewActivity" />
+        <activity
+            android:name="com.entage.nrd.entage.basket.UserBasketActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.entage.nrd.entage.personal.PersonalActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.entage.nrd.entage.home.HomeActivity" />
+        <activity android:name="com.entage.nrd.entage.utilities_1.SharingLocation" />
+        <activity
+            android:name="com.entage.nrd.entage.entage.EntageActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.entage.nrd.entage.Subscriptions.EntajiPageSubscriptionActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.entage.nrd.entage.followers.FollowersActivity" />
+        <activity
+            android:name="com.entage.nrd.entage.createEntagePage.CreateEntagePageActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.entage.nrd.entage.editEntagePage.SettingsEntagePageActivity" />
+        <activity android:name="com.entage.nrd.entage.payment.PaymentOrderActivity" />
+        <activity android:name="com.entage.nrd.entage.login.LoginActivity" />
+        <activity android:name="com.entage.nrd.entage.login.RegisterActivity" />
+        <activity
+            android:name="com.entage.nrd.entage.newItem.AddNewItemActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.entage.nrd.entage.newItem.ScalingTypeImage" />
+        <activity
+            android:name="com.entage.nrd.entage.entage.EntagePageOrdersActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.entage.nrd.entage.SettingApp.SettingAppActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.entage.nrd.entage.emails.EmailActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.entage.nrd.entage.utilities_1.test" />
+        <activity
+            android:name="com.entage.nrd.entage.utilities_1.ActivityDynamicLink"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="testentaji.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.entage.nrd.entage.utilities_1.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.entage.nrd.entage.payment.PayOrderActivity" />
+        <activity android:name="com.entage.nrd.entage.payment.SubscribeActivity" />
+        <activity android:name="com.entage.nrd.entage.payment.DepositFundsActivity" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.entage.nrd.entage.braintree" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.braintreepayments.api.dropin.DropInActivity"
+            android:theme="@style/bt_drop_in_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+            android:theme="@style/bt_add_card_activity_theme" />
+        <activity
+            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+            android:theme="@style/bt_vault_manager_activity_theme" />
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteOverlay"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+
+        <activity android:name="com.braintreepayments.api.ThreeDSecureActivity" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.entage.nrd.entage.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.entage.nrd.entage.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.entage.nrd.entage.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity
+            android:name="com.braintreepayments.api.GooglePaymentActivity"
+            android:theme="@style/bt_transparent_activity" />
+    </application>
+
+</manifest>
