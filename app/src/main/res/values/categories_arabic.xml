@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="categories_arabic">
+                <item>Mobiles and Tablets </item> ------------------------- ca_su_01
+                <item>Electronics </item> --------------------------------- ca_su_02
+                <item>Food and Drink </item> ---------------------------- ca_su_03
+                <item>Fashion and clothing </item> ----------------------------- ca_su_04
+                <item>Health and Beauty </item> ------------------------------- ca_su_05
+                <item>Home and decoration </item> ----------------------------- ca_su_06
+                <item>Perfumes and Watches </item> ----------------------------- ca_su_07
+                <item>Jewelry and Accessories </item> ------------------------- ca_su_08
+                <item>Books </item> ------------------------------------------ ca_su_09
+                <item>Mobiles </item> ------------------------------------ ca_su_010
+                <item>Tablets </item> ---------------------------------- ca_su_011
+                <item>Accessories </item> ------------------------------------ ca_su_012
+                <item>Laptops </item> -------------------------------------- ca_su_013
+                <item>Printers </item> -------------- ------------------------ ca_su_014
+                <item>Audio devices </item> ---------------------------------- ca_su_015
+                <item>Coffee and tea </item> ------------------------------- ca_su_016
+                <item>Sweets </item> --------------------------------------- ca_su_017
+                <item>Pastries </item> -------------- ------------------------ ca_su_018
+                <item>Drinks </item> -------------------------------------- ca_su_019
+                <item>Nuts </item> -------------- ------------------------ ca_su_020
+                <item>Dresses </item> -------------- ------------------------ ca_su_021
+                <item>Abayas </item> -------------- ------------------------ ca_su_022
+                <item>shoes </item> -------------------------------------- ca_su_023
+                <item>Bags and Wallets </item> -------------------------------- ca_su_024
+                <item>Handbags </item> -------------- ---------------------- ca_su_025
+                <item>Backpacks </item> -------------- --------------------- ca_su_026
+                <item>Skin Care </item> --------------------- ca_su_027
+                <item>Hair Care </item> ------------------------------- ca_su_028
+                <item>Makeup </item> ---------------------------------------- ca_su_029
+                <item>Antiques </item> ------------------------------------------ ca_su_030
+                <item>stair </item> ------------------------------------ ca_su_031
+                <item>Carpet </item> ----------------------------------------- ca_su_032
+                <item>Perfumes </item> ----------------------------------------- ca_su_033
+                <item>hours </item> ---------------------------------------- ca_su_034
+                <item>Precious Jewelry </item> -------------------------------- ca_su_035
+                <item>Gold sets </item> ------------------------------------- ca_su_036
+                <item>Shave </item> ------------------------------------------ ca_su_037
+                <item>Strings </item> ---------------------------------------- ca_su_038
+                <item>Ear Studs </item> -------------------------------- ca_su_039
+                <item>Rings </item> ---------------------------------------- ca_su_040
+                <item>Bracelets </item> ---------------------------------------- ca_su_041
+                <item>Cooking Books </item> -------------------------------------- ca_su_042
+                <item>Children_s books </item> ------------------------------------ ca_su_043
+                <item>Stories </item> ------------------------------------------ ca_su_044
+                <item>Clothes </item> ----------------------------------------- ca_su_045
+                <item>Optics </item> -------------------------------------- ca_su_046
+                <item>Hours and Accessories </item> ------------------------ ca_su_047
+                <item>Gifts </item> ---------------------------- ca_su_048
+                <item>Books and School Supplies </item> ---------------------- ca_su_049
+                <item>Hairdressers </item> ------------------------ ca_su_050
+                <item>Hair accessories </item> ------------------------------- ca_su_051
+                <item>Mirrors </item> ----------------------------------------- ca_su_052
+                <item>wig </item> -------------------------------- ca_su_053
+                <item>Antiques </item> --------------------------------------- ca_su_054
+                <item>Drawings and Paintings </item> -------------------------------- ca_su_055
+                <item>Paintings and Antiques </item> --------------- ca_su_056
+                <item>Islamists </item> -------------------------------------- ca_su_057
+                <item>Maps, Atlases, and Globes </item> --------------------- ca_su_058
+                <item>Publications and Posters </item> ------------------------------ ca_su_059
+                <item>Bathroom accessories </item> ------------------------------- ca_su_060
+                <item>Bedroom Supplies </item> ---------------------------- ca_su_061
+                <item>Blankets and Throws </item> ------------------------------ ca_su_062
+                <item>Curtains </item> ----------------------------------------- ca_su_063
+                <item>Mattresses </item> ----------------------------------------- ca_su_064
+                <item>Pillows </item> ----------------------------------------- ca_su_065
+                <item>Showers and Showerheads </item> ---
+                <item>Towels </item> ----------------------------------------- ca_su_067
+                <item>Film cameras </item> ------------------------ ca_su_068
+                <item>Lenses </item> --------------------------------------- ca_su_069
+                <item>Cameras </item> --------------------------- ca_su_070
+                <item>Camera Bags </item> --------------------------------- ca_su_071
+                <item>Camera and camcorder Accessories </item> ------------- ca_su_072
+                <item>Digital Cameras </item> --------------------------------- ca_su_073
+                <item>Digital Photo Frames </item> ------------------------------ ca_su_074
+                <item>Electronic Flashes </item> ------------------------------ ca_su_075
+                <item>Interchangeable Lenses </item> --------------------------- ca_su_076
+                <item>Memory Cards </item> -------------------------------- ca_su_077
+                <item>Screen Protectors </item> --------------------------------- ca_su_078
+                <item>Stickers and Protection Caps </item> --------------------------- ca_su_079
+                <item>Conventional camera films </item> ------------------------- ca_su_080
+                <item>Coins </item> ----------------------------------- ca_su_081
+                <item>Bags and school supplies </item> ---------- ca_su_082
+                <item>Banknotes </item> ----------------------------------- ca_su_083
+                <item>Stamps </item> ----------------------------------------- ca_su_084
+                <item>Contact Lenses </item> ------------------------------- ca_su_085
+                <item>Glasses </item> ---------------------------------------- ca_su_086
+                <item>Sunglasses </item> ---------------------------- ca_su_087
+                <item>Glasses Frames </item> ------------------------------- ca_su_088
+                <item>General Books </item> ------------------------- ca_su_089
+                <item>Word </item> ------------------------------------------ -ca_su_090
+                <item>Garden decoration </item> --------------------------------- ca_su_091
+                <item>Garden Furniture </item> ---------------------------------- ca_su_092
+                <item>Gardening and Irrigation Tools </item> ----------------- ca_su_093
+                <item>Grills and Smokers </item> --------------------------- ca_su_094
+                <item>Pest and Rodent Control </item> ---------------------- ca_su_095
+                <item>Camera tools </item> ------------------------- ca_su_096
+                <item>Batteries </item> --------------------------------------- ca_su_097
+                <item>Binoculars and Telescopes </item> ----------------------------- ca_su_098
+                <item>recorders </item> ---------------------------------- ca_su_099
+                <item>Radios with hours </item> ----------------------------- ca_su_0100
+                <item>E-book Readers </item> -------------------------- ca_su_0101
+                <item>Home and office electronics </item> -------------------- ca_su_0102
+                <item>Home Theater Systems </item> -------------------------- ca_su_0103
+                <item>Home Video Accessories </item> ------------------ ca_su_0104
+                <item>MP3 and MP4 players </item> ------------------ ca_su_0105
+                <item>Projectors and Accessories </item> ----------------------- ca_su_0106
+                <item>Recording and studio equipment </item> ---------------------- ca_su_0107
+                <item>Stereo systems and audio rates </item> --------------------- ca_su_0108
+                <item>Televisions and Satellite Accessories </item> ------------- ca_su_0109
+                <item>Video and home theater appliances </item> ----------------- ca_su_0110
+                <item>Webcams </item> --------------------------------- ca_su_0111
+                <item>Cables and Connectors </item> --------------------------------- ca_su_0112
+                <item>Chargers </item> ----------------------------------------- ca_su_0113
+                <item>Headphones </item> ------------------------------------ ca_su_0114
+                <item>Mobile Accessories </item> ---------------------------- ca_su_0115
+                <item>Power Bank </item> ------------------------------------- ca_su_0116
+                <item>Tablet Accessories </item> ------------------------- ca_su_0117
+                <item>Watch accessories </item> ----------------------------- ca_su_0118
+                <item>Smart Watches </item> ------------------------------------ ca_su_0119
+                <item>Appetizers </item> ------------------------------------ ca_su_0120
+                <item>main dishes </item> ---------------------------------- ca_su_0121
+                <item>Meals </item> ----------------------------------------- ca_su_0122
+                <item>Rice Dishes </item> ----------------------------------- ca_su_0123
+                <item>IDEMs </item> --------------------------------------- ca_su_0124
+                <item>Comments </item> --------------------------------------- ca_su_0125
+                <item>Ornaments </item> --------------------------------------- ca_su_0126
+                <item>Cold Drinks </item> --------------------------------------- ca_su_0127
+                <item>Shoes, Clothing and Accessories </item>
+                <item>Bags and Wallets </item>
+                <item>Cylindrical Duffle Bag </item>
+                <item>Bag and Luggage Accessories </item>
+                <item>Wheeled Bags </item>
+                <item>Wallet </item>
+                <item>Clothes </item>
+                <item>accessories </item>
+                <item>belts </item>
+                <item>Clothing accessories </item>
+                <item>caps </item>
+                <item>scarves </item>
+                <item>Stockings </item>
+                <item>Sportswear </item>
+                <item>Ethnic and Traditional Wear </item>
+                <item>Jackets and Coats </item>
+                <item>Jumpsuits, Rompers, and Overalls </item>
+                <item>Maternity Wear </item>
+                <item>Pants </item>
+                <item>Shorts </item>
+                <item>Skirts </item>
+                <item>Sleepwear </item>
+                <item>Allowances </item>
+                <item>Swimwear </item>
+                <item>Tops, T-shirts and Shirts </item>
+                <item>Underwear </item>
+                <item>Uniform Dress </item>
+                <item>lingerie </item>
+                <item>Optics </item>
+                <item>Kids </item>
+                <item>boots </item>
+                <item>shoes </item>
+                <item>sandals </item>
+                <item>Shoe accessories </item>
+                <item>slippers </item>
+                <item>Casual shoes </item>
+                <item>formal shoes </item>
+                <item>Watches and Accessories </item>
+                <item>Beauty </item>
+                <item>Beauty Tools and Accessories </item>
+                <item>Hair Care </item>
+                <item>Body Lotion </item>
+                <item>Cameras </item>
+                <item>Electronics </item>
+                <item>Audio and accessories </item>
+                <item>Audio Accessories </item>
+                <item>CD players and recorders </item>
+                <item>Portable Cassette and CD Players </item>
+                <item>Portable radios </item>
+                <item>Telephone accessories </item>
+                <item>Cordless Phones </item>
+                <item>MP3, MP4 players and accessories </item>
+                <item>MP3 and MP4 players </item>
+                <item>Accessories for MP3 and MP4 players </item>
+                <item>Projector Accessories </item>
+                <item>Projectors </item>
+                <item>Security and Surveillance Systems </item>
+                <item>Televisions, Satellites and Accessories </item>
+                <item>3D glasses </item>
+                <item>Satellite Receivers - </item>
+                <item>Radio station tuning and receiving devices </item>
+                <item>TV mounts and panels </item>
+                <item>TV and Satellite Accessories </item>
+                <item>Video, home theater devices and accessories </item>
+                <item>Speakers and Receivers </item>
+                <item>DVD and Blu-ray Players </item>
+                <item>VCRs with DVD </item>
+                <item>videos </item>
+                <item>Triggers </item>
+                <item>Video Games </item>
+                <item>Operating Systems </item>
+                <item>Video game accessories </item>
+                <item>Video Games </item>
+                <item>Health and Personal Care </item>
+                <item>Bath and Body Center </item>
+                <item>Peelers </item>
+                <item>Massages </item>
+                <item>Dental Care Center </item>
+                <item>Toothpaste </item>
+                <item>Health and Personal Care Center </item>
+                <item>Bandages </item>
+                <item>Wipes </item>
+                <item>Against aging and wrinkles </item>
+                <item>Digital Thermometers </item>
+                <item>Electric Shavers </item>
+                <item>Personal Care Machines </item>
+                <item>Health and Personal Care </item>
+                <item>Weight Measurement </item>
+                <item>Small Medical Equipment </item>
+                <item>Jewelry and accessories </item>
+                <item>Bracelets </item>
+                <item>Ear Studs </item>
+                <item>Precious Jewelry </item>
+                <item>Jewelry Accessories </item>
+                <item>Jewelry sets </item>
+                <item>Precious Stones </item>
+                <item>Men_s Jewelry </item>
+                <item>Cell Phones, Tablets and Accessories </item>
+                <item>Mobile Phones </item>
+                <item>Tablet </item>
+                <item>Perfume </item>
+                <item>Fragrance Gift Set </item>
+                <item>Home Development Tools and Equipment </item>
+                <item>Drills </item>
+                <item>Hand Tools </item>
+                <item>Measuring and Layout Tools </item>
+                <item>Screws, Bolts and Fasteners </item>
+                <item>Paint and paint supplies </item>
+                <item>Manual and electrical equipment accessories </item>
+                <item>Power Tools </item>
+                <item>Security and protection clothing and equipment </item>
+                <item>Wearable technology devices </item>
+                <item>Crafts, Collectibles, and Arts </item>
+                <item>Handicrafts and Sculptures </item>
+                <item>Maps, Atlases, and Globes </item>
+                <item>Publications and posters </item>
+                <item>Bedding and Bathing </item>
+                <item>Showers and Showerheads </item>
+                <item>Coins, Stamps, and Paper Money </item>
+                <item>Paper accessories and stamps </item>
+                <item>Garden Supplies </item>
+                <item>Grilling tools and accessories </item>
+                <item>Smoking accessories </item>
+                <item>Home appliances </item>
+                <item>Heating, Cooling, and Air Quality Center </item>
+                <item>Air Conditioners </item>
+                <item>Air Freshener </item>
+                <item>Fans </item>
+                <item>space heaters </item>
+                <item>Irons, Steam Cleaners, Sewing Machines and Accessories </item>
+                <item>Irons Accessories </item>
+                <item>Irons </item>
+                <item>Sewing and accessories </item>
+                <item>Steam Cleaners </item>
+                <item>Center for Large Electrical Appliances </item>
+                <item>Dryers and Toasters </item>
+                <item>Dryers. </item>
+                <item>Washers </item>
+                <item>Water Heaters </item>
+                <item>Parts and accessories </item>
+                <item>Vacuum cleaner accessories </item>
+                <item>Small Home Equipments Center </item>
+                <item>Televisions </item>
+                <item>Kitchen appliances </item>
+                <item>Home Appliance Accessories and Accessories </item>
+                <item>Mixers </item>
+                <item>Hot Drink Machines </item>
+                <item>Dishwashers </item>
+                <item>Electric meat cutter </item>
+                <item>Electrical Sectors </item>
+                <item>Food Preparation </item>
+                <item>Food Processors </item>
+                <item>Electric Fryers </item>
+                <item>Ice cream makers </item>
+                <item>Juicers and presses </item>
+                <item>Boilers </item>
+                <item>Kitchen Scales </item>
+                <item>Microwaves </item>
+                <item>ovens </item>
+                <item>Chimneys and Ovens Hoods </item>
+                <item>Refrigerators and Freezers </item>
+                <item>Rice Cooker </item>
+                <item>Sandwich and Waffle Maker </item>
+                <item>Slow Cookers </item>
+                <item>Special Kitchen Appliances </item>
+                <item>Steamer </item>
+                <item>Toasters </item>
+                <item>Water Cooler </item>
+                <item>Movies and Music </item>
+                <item>Guitars </item>
+                <item>Movies, series, and plays </item>
+                <item>CD Music </item>
+                <item>Musical Instruments </item>
+                <item>Musical instruments and accessories </item>
+                <item>Music keyboard </item>
+                <item>Radio wave receivers and tuning devices </item>
+                <item>Pet supplies and supplies </item>
+                <item>Animal and pet food </item>
+                <item>Pet and animal supplies </item>
+                <item>Games </item>
+                <item>Fancy Dress </item>
+                <item>games </item>
+                <item>Child </item>
+                <item>Baby accessories </item>
+                <item>Baby bags </item>
+                <item>Baby Clothes </item>
+                <item>Baby equipment </item>
+                <item>Game Accessories </item>
+                <item>Child Safety and Health Equipment </item>
+                <item>Baby toys and accessories </item>
+                <item>Feeding </item>
+                <item>Baby furniture </item>
+                <item>Books </item>
+                <item>Business and Trade Books </item>
+                <item>Children_s Books </item>
+                <item>Comic and Graphic Novels </item>
+                <item>Educational Books </item>
+                <item>Lifestyle Books </item>
+                <item>Literature and Fiction </item>
+                <item>Software </item>
+                <item>Computer and laptop accessories </item>
+                <item>Laptop Bags </item>
+                <item>Barcode Readers </item>
+                <item>Computer Cases </item>
+                <item>Computers Fans </item>
+                <item>Baby shoes </item>
+                <item>Electrical and electronic tools supplies </item>
+                <item>Hard Discs </item>
+                <item>Headphones </item>
+                <item>Keyboards </item>
+                <item>Microphones </item>
+                <item>Motherboards </item>
+                <item>Mouse </item>
+                <item>Posters and Protection Caps </item>
+                <item>Headphones </item>
+                <item>USB Mobile </item>
+                <item>USB Hubs </item>
+                <item>Computer Parts and Components </item>
+                <item>Card Readers / Copiers </item>
+                <item>Computer Monitors </item>
+                <item>Cooling Pads </item>
+                <item>Digital processors and memories </item>
+                <item>USB devices </item>
+                <item>Optical Drives </item>
+                <item>Power Supplies </item>
+                <item>Sound Cards </item>
+                <item>Video Cards </item>
+                <item>Computers and Servers </item>
+                <item>Computer </item>
+                <item>Servers </item>
+                <item>Networks and Accessories </item>
+                <item>empty cylinders </item>
+                <item>Blank DVD Discs </item>
+                <item>Data Storage Devices </item>
+                <item>Media Ports </item>
+                <item>Docking Station </item>
+                <item>Network cards and adapters </item>
+                <item>Network switches </item>
+                <item>Networking tools and accessories </item>
+                <item>Router and Router </item>
+                <item>3D Printers </item>
+                <item>Label Printers </item>
+                <item>Printer and Scanner Accessories </item>
+                <item>Scanners </item>
+                <item>Software </item>
+                <item>Laptops and Netbooks </item>
+                <item>Virtual Reality Devices </item>
+                <item>Furniture </item>
+                <item>Bedrooms </item>
+                <item>Family </item>
+                <item>Kitchen and dining room furniture </item>
+                <item>Living Room sets </item>
+                <item>Office Furniture </item>
+                <item>Air Fresheners Center </item>
+                <item>Air Fresheners </item>
+                <item>Baby Care and Bathing Center </item>
+                <item>Baby Bath </item>
+                <item>Baby Care and Supplies </item>
+                <item>Baby Lotion </item>
+                <item>Baby Powder </item>
+                <item>Diapers </item>
+                <item>Children_Food Center </item>
+                <item>Children_s drinks </item>
+                <item>Children_s biscuit </item>
+                <item>Baby cereal </item>
+                <item>Baby food </item>
+                <item>Baby Food Equation </item>
+                <item>Bakery Center </item>
+                <item>Juice and Beverage Center </item>
+                <item>Juices and drinks </item>
+                <item>Energy Drinks </item>
+                <item>Iced coffee </item>
+                <item>Juices </item>
+                <item>Powder Drink </item>
+                <item>Soft Drinks </item>
+                <item>Water </item>
+                <item>Breakfast </item>
+                <item>Bakery products </item>
+                <item>Hot coffee </item>
+                <item>Milk </item>
+                <item>tea </item>
+                <item>Grain Center </item>
+                <item>Breakfast cereal </item>
+                <item>Pills </item>
+                <item>Granola </item>
+                <item>Rice </item>
+                <item>Washing Powder </item>
+                <item>Fabric Softener </item>
+                <item>Confectionery Center </item>
+                <item>Sweets </item>
+                <item>Milk and derivatives center </item>
+                <item>Cheese </item>
+                <item>Condensed Milk </item>
+                <item>Milk and milk products </item>
+                <item>eggs </item>
+                <item>Biscuits and Cookies </item>
+                <item>bread </item>
+                <item>Chips and potato chips </item>
+                <item>Chocolate and candy </item>
+                <item>Dates </item>
+                <item>chewing gum </item>
+                <item>Jam and Honey </item>
+                <item>Nuts and seeds </item>
+                <item>Oil </item>
+                <item>Packed Meals </item>
+                <item>Pasta and vermicelli </item>
+                <item>Rice </item>
+                <item>Snacks </item>
+                <item>Soup </item>
+                <item>Sweet and Savory Bakery Products </item>
+                <item>Fruits and Vegetables Center </item>
+                <item>Vegetables and Fruits </item>
+                <item>Butter Center </item>
+                <item>Butter </item>
+                <item>Hair Care Center </item>
+                <item>Hair Care </item>
+                <item>Hair Dyes </item>
+                <item>Hair Treatments </item>
+                <item>Shampoo and Conditioner </item>
+                <item>Makeup Center </item>
+                <item>Meat and Chicken Center </item>
+                <item>Meat and chicken </item>
+                <item>Personal Care </item>
+                <item>Anti-aging </item>
+                <item>Anti-wrinkle </item>
+                <item>Bath and Body </item>
+                <item>Dental Care Center </item>
+                <item>Dental Care </item>
+                <item>Electric Toothbrushes </item>
+                <item>Mouthwash </item>
+                <item>Toothbrushes </item>
+                <item>Toothpaste </item>
+                <item>Deodorants and Antiperspirants </item>
+                <item>Women Care </item>
+                <item>Men_s cosmetics </item>
+                <item>Soap </item>
+                <item>wet wipes </item>
+                <item>Pet Food Center </item>
+                <item>Pet food </item>
+                <item>Seafood Center </item>
+                <item>Seafood </item>
+                <item>Women Bags </item>
+                <item>Mustard </item>
+                <item>Spices and condiments </item>
+                <item>Sauces </item>
+                <item>Skin Care Center </item>
+                <item>Body Creams </item>
+                <item>Facial Creams </item>
+                <item>Furniture and Home Decor </item>
+                <item>Home Decor Center </item>
+                <item>Artificial flowers and plants </item>
+                <item>Candles </item>
+                <item>Candles and Candlesticks </item>
+                <item>Decorative pillows and cushions </item>
+                <item>Frames and Frames </item>
+                <item>Home Decor </item>
+                <item>Party supplies and special occasions </item>
+                <item>Rugs and Carpets </item>
+                <item>Storage and Organization </item>
+                <item>Vases </item>
+                <item>Wallpaper and wall stickers </item>
+                <item>Luminaires and Bulbs </item>
+                <item>Light Bulbs </item>
+                <item>Luminaires </item>
+                <item>Small Furniture </item>
+                <item>Chairs and benches </item>
+                <item>Sofas and side seats </item>
+                <item>Tables </item>
+                <item>Kitchen and Home Appliances </item>
+                <item>Baking Tools and Accessories </item>
+                <item>Laundry products </item>
+                <item>Cooking Utensils </item>
+                <item>Cooking and Baking Equipment </item>
+                <item>Spoons and Fork Knives </item>
+                <item>Dinnerware </item>
+                <item>Drinkware and Cups </item>
+                <item>Household Items </item>
+                <item>Kitchen Accessories </item>
+                <item>Kitchen Measuring Tools </item>
+                <item>Storage and Sorting Sets </item>
+                <item>Paper and Plastic Products Center </item>
+                <item>Paper and Plastic Products </item>
+                <item>Table Linens </item>
+                <item>Office Equipment and Supplies </item>
+                <item>Faxes </item>
+                <item>MFPs </item>
+                <item>Gifts and toys </item>
+                <item>Office Equipment </item>
+                <item>Office Supplies </item>
+                <item>Printers, Copiers and Accessories </item>
+                <item>Ink Cartridges </item>
+                <item>Stationary </item>
+                <item>Sports and equipment </item>
+                <item>Sneakers </item>
+                <item>Balls </item>
+                <item>Bicycles </item>
+                <item>Camping Center </item>
+                <item>Camping Cooking Equipment </item>
+                <item>Camping Tableware </item>
+                <item>Camping, Hiking and Climbing Supplies </item>
+                <item>Camping lights </item>
+                <item>Camping chairs and outdoor activities </item>
+                <item>Camping tables </item>
+                <item>Cycling Equipment </item>
+                <item>Exercise bikes </item>
+                <item>Fitness Technology Center </item>
+                <item>Fitness technology </item>
+                <item>Flashlights </item>
+                <item>Games</item>
+                 <item>Protective Kit </item>
+                 <item>Rackets </item>
+                 <item>Scooters and Ride-Ons </item>
+                 <item>Bags for Special Purpose </item>
+                 <item>Sports Gloves </item>
+                 <item>Sports Equipments </item>
+                 <item>Sports Equipment </item>
+                 <item>Sport watches </item>
+                 <item>Treadmills </item>
+                 <item>Motorcycles </item>
+                 <item>Motorcycle Equipment </item>
+                 <item>Motorcycle shoes </item>
+                <item>Motorcycle sportswear</item>
+                <item>Sports weights </item>
+                <item>Parts and accessories </item>
+                <item>Car Audio and Video Accessories </item>
+                <item>Car Care Products </item>
+                <item>GPS accessories </item>
+                <item>Keys and Keychains </item>
+                <item>Car Audio System </item>
+                <item>Auto Parts </item>
+                <item>Car Speakers and Amplifiers </item>
+                <item>Car Video </item>
+                <item>Cleaning Product Center </item>
+                <item>Cleaning Products </item>
+                <item>GPS devices </item>
+                <item>GPS receivers </item>
+                <item>Bicycle parts </item>
+                <item>Tires and Wheels </item>
+                <item>Vacuum Cleaners </item>
+                <item>Vehicle Fluids and Oils </item>
+                <item>Vehicles Lights and Bulbs </item>
+                <item>Coffee Beans </item>
+                <item>Men_s clothing </item>
+                <item>Formal Wear </item>
+                <item>Traditional clothing</item>
+                <item>Baby shoes</item>
+                <item>Camera Tools</item>
+                <item>Women_s clothing</item>
+                <item>Camera Tools</item>
+    </array>
+
+</resources>
